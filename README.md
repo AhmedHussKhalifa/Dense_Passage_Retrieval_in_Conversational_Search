@@ -327,5 +327,3 @@ If you plan to use `DPR` in your project, please consider citing [our paper](htt
 
 ## License
 DPR is CC-BY-NC 4.0 licensed as of now.
-#   D e n s e _ P a s s a g e _ R e t r i e v a l _ i n _ C o n v e r s a t i o n a l _ S e a r c h  
- 
