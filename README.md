@@ -4,7 +4,7 @@ The code is splitted between 2 different plateforms, which are Google Collab and
 
 
 ## Features
-1. BASH files to submit Jobs on different clusters on CoputeCanada.
+1. BASH files to submit Jobs on different clusters on ComputeCanada.
 2. NoteBooks to used on Google Collabs. 
 3. Dense retriever model is based on bi-encoder architecture.
 4. Dense Passage Retrieval  inspired by [this](https://arxiv.org/abs/2004.04906) paper.
