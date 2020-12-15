@@ -114,7 +114,7 @@ sbatch ComputeCanada/cast_inference.sh
 
 ### Note:
 
-If you had some errors working with working Huggingface to download pretrained model you can follow these steps:
+If you had some errors while working with Huggingface to download pretrained model you can follow these steps:
 
 ```bash
 mkdir data/models
