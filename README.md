@@ -1,5 +1,8 @@
 # Dense Passage Retrieval in Conversational Search
 
+The code is splitted between 2 different plateforms, which are Google Collab and Compute Canada. It also contains 2 other repos that are used in the implenetation of this project, DPR repo for "Dense Passage Retrieval" and CAsT Dataset
+
+
 Dense Passage Retrieval (`DPR`) - is a set of tools and models for state-of-the-art open-domain Q&A research.
 It is based on the following paper:
 
@@ -327,5 +330,3 @@ If you plan to use `DPR` in your project, please consider citing [our paper](htt
 
 ## License
 DPR is CC-BY-NC 4.0 licensed as of now.
-#   D e n s e _ P a s s a g e _ R e t r i e v a l _ i n _ C o n v e r s a t i o n a l _ S e a r c h  
- 

@@ -1,4 +1,9 @@
-# Dense Passage Retrieval
+# Dense Passage Retrieval in Conversational Search
+
+The code is splitted between 3 main plateforms:
+1- Google Collab
+2- Compute Canada
+3- 
 
 Dense Passage Retrieval (`DPR`) - is a set of tools and models for state-of-the-art open-domain Q&A research.
 It is based on the following paper:
