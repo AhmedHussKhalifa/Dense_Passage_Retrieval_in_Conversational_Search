@@ -36,7 +36,7 @@ This project is tested on Python 3.6+, PyTorch 1.2.0+ and Transformers 3.5.
 sbatch ComputeCanada/pyTorch_DPR.sh
 ```
 
-You might need to setup run the following on line through the command line if the prvious file did not work.
+You might need the following setup through the command line if the prvious file did not work.
 
 
 ```bash 
