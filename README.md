@@ -3,7 +3,7 @@
 The code is splitted between 2 different plateforms, which are Google Collab and Compute Canada. It also contains 2 other repos that are used in the implenetation of this project, DPR repo for "Dense Passage Retrieval", CAsT Dataset, MSMARCo Dataset. Another repo used for evaluation of the CAsT.
 
 ## Authors: 
-[Pierre McWhannel](https://github.com/pmcwhannel), [Nicole Yan](https://github.com/pmcwhannel)], [Ahmed Salamah](https://scholar.google.com/citations?user=XQ92c9cAAAAJ&hl=en).
+[Pierre McWhannel](https://github.com/pmcwhannel), [Nicole Yan](https://github.com/XinyiYan), [Ahmed Salamah](https://scholar.google.com/citations?user=XQ92c9cAAAAJ&hl=en).
 ##
 
 ## Features
@@ -91,13 +91,24 @@ sbatch ComputeCanada/merge-job.sh
 sbatch ComputeCanada/ctx_1.sh
 ```
 
-### 6. For Cast inference
+### 6. For rewriting using the GPT2QR, you can use this notebook on googleColabs or using ComputeCanada using this [link](https://docs.computecanada.ca/wiki/Jupyter). 
+
+```bash
+Google_Collab/GPT2QR.ipynb
+```
+
+
+### 7. For Cast inference
 
 ```bash
 sbatch ComputeCanada/cast_inference.sh
 ```
 
-### 7. Other parts we have combined our scripts between ComputeCanada and GoogleCollabs. 
+### 8. Other parts of the project we have combined our scripts between ComputeCanada and GoogleCollab (Notebooks are well commented). 
+
+##
+
+### 8. In "CAsT_GPT_rewrite" folder you will find a rewritten examples for the cast queries according to the used in our experiments.
 
 ##
 
@@ -127,3 +138,10 @@ class HFBertEncoder(BertModel):
         #cfg = BertConfig.from_pretrained(cfg_name if cfg_name else 'bert-base-uncased')
         cfg = BertConfig.from_pretrained('/home/YOUR_USER_NAME/scratch/DPR/data/models/')
 ```
+
+
+More detials can be provided by any of the following authors:
+
+1. [Pierre McWhannel](https://github.com/pmcwhannel).
+2. [Nicole Yan](https://github.com/XinyiYan).
+3. [Ahmed Salamah](https://scholar.google.com/citations?user=XQ92c9cAAAAJ&hl=en).
