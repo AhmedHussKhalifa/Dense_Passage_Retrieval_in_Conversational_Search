@@ -1,6 +1,6 @@
 # Dense Passage Retrieval in Conversational Search
 
-The code is splitted between 2 different plateforms, which are Google Collab and Compute Canada. It also contains 2 other repos that are used in the implenetation of this project, DPR repo for "Dense Passage Retrieval", CAsT Dataset, MSMARCo Dataset. Another repo used for evaluation of the CAsT.
+The code is splitted between 2 different plateforms, which are Google Collab and Compute Canada. It also contains 2 other repos that are used in the implementation  of this project, DPR repo for "Dense Passage Retrieval", CAsT Dataset, MSMARCo Dataset. Another repo used for evaluation of the CAsT.
 
 ## Authors: 
 [Pierre McWhannel](https://github.com/pmcwhannel), [Nicole Yan](https://github.com/XinyiYan), [Ahmed Salamah](https://scholar.google.com/citations?user=XQ92c9cAAAAJ&hl=en).
@@ -108,7 +108,7 @@ sbatch ComputeCanada/cast_inference.sh
 
 ##
 
-### 8. In "CAsT_GPT_rewrite" folder you will find a rewritten examples for the cast queries according to the used in our experiments.
+### 9. In "CAsT_GPT_rewrite" folder you will find a rewritten examples for the cast queries according to the used in our experiments.
 
 ##
 
