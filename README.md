@@ -2,6 +2,9 @@
 
 The code is splitted between 2 different plateforms, which are Google Collab and Compute Canada. It also contains 2 other repos that are used in the implenetation of this project, DPR repo for "Dense Passage Retrieval", CAsT Dataset, MSMARCo Dataset. Another repo used for evaluation of the CAsT.
 
+## Authors: 
+[Pierre McWhannel](https://github.com/pmcwhannel), [Nicole Yan](https://github.com/pmcwhannel)], [Ahmed Salamah](https://scholar.google.com/citations?user=XQ92c9cAAAAJ&hl=en).
+##
 
 ## Features
 1. BASH files to submit Jobs on different clusters on ComputeCanada.
@@ -96,6 +99,7 @@ sbatch ComputeCanada/cast_inference.sh
 
 ### 7. Other parts we have combined our scripts between ComputeCanada and GoogleCollabs. 
 
+##
 
 ### Note:
 
