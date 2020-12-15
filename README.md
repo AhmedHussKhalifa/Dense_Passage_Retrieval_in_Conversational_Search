@@ -9,5 +9,16 @@ The code is splitted between 2 different plateforms, which are Google Collab and
 3. Dense retriever model is based on bi-encoder architecture.
 4. Dense Passage Retrieval  inspired by [this](https://arxiv.org/abs/2004.04906) paper.
 5. Related data pre- and post- processing tools.
-6. Dense retriever component for inference time logic is based on FAISS index.
+6. Dense retriever component for inference time logic is based on FAISS index for the DPR paper.
 
+## 
+
+
+## Installation
+
+Installation from the source. Python's virtual or Conda environments are recommended.
+
+```bash
+git clone https://github.com/AhmedHussKhalifa/Dense_Passage_Retrieval_in_Conversational_Search
+cd Dense_Passage_Retrieval_in_Conversational_Search
+```
