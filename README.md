@@ -108,7 +108,7 @@ sbatch ComputeCanada/cast_inference.sh
 
 ##
 
-### 9. In "CAsT_GPT_rewrite" folder you will find a rewritten examples for the cast queries according to the used in our experiments.
+### 9. In "CAsT_GPT_rewrite" folder you will find a rewritten examples for the cast queries according to the reformulation strategies that is used in our experiments.
 
 ##
 
